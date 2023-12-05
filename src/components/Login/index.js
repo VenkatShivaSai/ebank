@@ -52,7 +52,7 @@ class Login extends Component {
     const response = await fetch(url, options)
     const data = await response.json()
     if (response.ok === true) {
-      this.success(data.jwtToken)
+      this.success(data.jwt_token)
     } else {
       this.fail(data.error_msg)
     }
