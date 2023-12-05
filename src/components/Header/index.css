@@ -1,0 +1,14 @@
+.nav-el {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logout-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
